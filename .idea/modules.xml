@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hello_World/Hello_World.iml" filepath="$PROJECT_DIR$/Hello_World/Hello_World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prog I/Prog I.iml" filepath="$PROJECT_DIR$/Prog I/Prog I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prog_1_Klausuruebungsaufgaben/Prog_1_Klausuruebungsaufgaben.iml" filepath="$PROJECT_DIR$/Prog_1_Klausuruebungsaufgaben/Prog_1_Klausuruebungsaufgaben.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myFirstGUI/myFirstGUI.iml" filepath="$PROJECT_DIR$/myFirstGUI/myFirstGUI.iml" />
+    </modules>
+  </component>
+</project>
