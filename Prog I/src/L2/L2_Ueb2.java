@@ -6,7 +6,7 @@ public class L2_Ueb2 {
 
 
     }
-    public static void main(String[] Strings)
+    public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the value of a: ");
