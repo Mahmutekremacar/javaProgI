@@ -1,13 +1,16 @@
 package L7;
-
+import java.util.Scanner;
 public class L7_Ueb3 {
 
 
 
         public static void main(String[] args) {
             // Beispielaufruf der Methode
-            char[] inputArray = {'H', 'e', 'l', 'l', 'o', '!', ' ', 'w', 'o', 'r', 'l', 'd'};
-            char[] resultArray = inGrossbuchstaben(inputArray);
+            Scanner input = new Scanner(System.in);
+            System.out.println("Saetze eintritten: ");
+            String inputstr = input.next();
+            char[] charArray = inputstr.toCharArray();
+            char[] resultArray = inGrossbuchstaben(charArray);
 
             // Ausgabe des Ergebnisses
             System.out.println(resultArray);
