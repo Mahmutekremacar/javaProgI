@@ -8,7 +8,7 @@ public class L7_Ueb3 {
             // Beispielaufruf der Methode
             Scanner input = new Scanner(System.in);
             System.out.println("Saetze eintritten: ");
-            String inputstr = input.next();
+            String inputstr = input.nextLine();
             char[] charArray = inputstr.toCharArray();
             char[] resultArray = inGrossbuchstaben(charArray);
 
