@@ -29,7 +29,7 @@ public class L7_Ueb5 {
         //System.out.println(underScores);
         System.out.println("Zeichne vorstellen");
         String charinput = sc.next();
-        isIn(charinput, underScores,sentence);
+        //isIn(charinput, underScores,sentence);
 
     }
 
