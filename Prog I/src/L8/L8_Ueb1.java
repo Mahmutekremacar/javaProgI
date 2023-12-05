@@ -13,46 +13,67 @@ public class L8_Ueb1 {
     * If not decreases lives one from total of 20. )
     * */
 
-    public static void transposerToGame(char[] arr) {
-        CharArrayWriter caw = new CharArrayWriter();
-        for (int i = 0; i < arr.length; i++) {
-            caw.append('_');
-
-        }
-        System.out.println(caw);
-
-    }
-
-    static void dieSpiel(char[] arrWord, char[] wordPlace, int lives) {
-        Scanner sc = new Scanner(System.in);
 
 
-        Boolean finished = false;
-        while (lives > 0 && finished == false) {
-            System.out.println("Errate einen buchstaben: ");
-            char erratung = sc.next().charAt(0);
-            int contains = 0;
-            for (char c : arrWord) {
 
-                if (c == erratung) {
-                    wordPlace.replace(wordPlace[erratung],erratung);
+        public static void main(String[] args) {
+            String[] words = {"PROGRAMMIERSPRACHE", "JAVA", "COMPUTER", "ENTWICKLUNG", "GALGENMAENNCHEN"};
 
-                }
-                contains++;
+            // Zufälliges Wort auswählen
+            String selectedWord = words[(int) (Math.random() * words.length)];
+            char[] guessedWord = new char[selectedWord.length()];
 
+            // Initialisierung des geratenen Wortes mit Unterstrichen
+            for (int i = 0; i < guessedWord.length; i++) {
+                guessedWord[i] = '_';
             }
+
+            int attempts = 0;
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Willkommen bei Galgenmännchen!");
+            System.out.println("Versuche das Wort zu erraten.");
+
+            while (true) {
+                // Anzeige des aktuellen geratenen Wortes
+                System.out.println((attempts + 1) + ". Versuch: " + new String(guessedWord));
+
+                // Benutzereingabe
+                System.out.print("Buchstaben eingeben: ");
+                char guess = scanner.next().toUpperCase().charAt(0);
+
+                // Überprüfen, ob der geratene Buchstabe im Wort vorhanden ist
+                boolean found = false;
+                for (int i = 0; i < selectedWord.length(); i++) {
+                    if (selectedWord.charAt(i) == guess) {
+                        guessedWord[i] = guess;
+                        found = true;
+                    }
+                }
+
+                if (!found) {
+                    System.out.println("Falsch! Versuche es erneut.");
+                }
+
+                // Überprüfen, ob das Wort vollständig erraten wurde
+                if (new String(guessedWord).equals(selectedWord)) {
+                    System.out.println("Herzlichen Glückwunsch! Du hast das Wort richtig erraten.");
+                    break;
+                }
+
+                attempts++;
+
+                // Überprüfen, ob die maximalen Versuche erreicht wurden
+                if (attempts >= 15) {
+                    System.out.println("Leider hast du das Wort nicht in 15 Versuchen erraten. Das richtige Wort war: " + selectedWord);
+                    break;
+                }
+            }
+
+            scanner.close();
         }
     }
 
-        public static void main (String[]args)
-        {
-            String saetze = "PROGRAMMIERSPRACHE";
-            char[] arr = saetze.toCharArray();
-            System.out.println(arr);
-            transposerToGame(arr);
 
 
-        }
-
-}
 
