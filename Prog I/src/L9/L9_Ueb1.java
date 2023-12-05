@@ -1,4 +1,6 @@
 package L9;
+import L8.*;
+
 import java.util.Scanner;
 
 
@@ -14,74 +16,7 @@ public class L9_Ueb1 {
     verändert werden.*/
 
 
-    /*
-    * Taban sayi
-    * us
-    * taban sayiyi us jadar carpacak bir loop
-    * */
-    static void us_alma_forla()
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Taban giriniz: ");
-        double taban = sc.nextDouble();
-        System.out.println("Us giriniz: ");
-        double us = sc.nextDouble();
-        double sonuc =1;
-        if (us > 0)
-        {
-            for(int i = 0; i < us; i++)
-            {
-                sonuc = sonuc * taban;
+    Auto auto1 = new Auto("Fiat",3.9, "Rot");
 
-            }
-            System.out.println(sonuc);
-        }
-        else if(us == 0)
-        {
-            System.out.println(sonuc);
-        }
-        else
-        {
-            for(int i = 0; i < (-1 * us); i ++)
-            {
-                sonuc = sonuc * taban;
 
-            }
-            System.out.println(1 / sonuc);
-        }
-    }
-    static void us_alma_while()
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Taban giriniz: ");
-        double taban = sc.nextDouble();
-        System.out.println("Us giriniz: ");
-        double us = sc.nextDouble();
-        double sonuc = 1;
-        if (us > 0){
-            while (us > 0) {
-                sonuc = sonuc * taban;
-                us--;
-            }
-            System.out.println(sonuc);
-        }else if(us == 0)
-        {System.out.println(1);}
-        else{
-            while ((-1 * us) > 0)
-            {
-                sonuc = sonuc * taban;
-                us++;
-            }
-            System.out.println(1 / sonuc);
-        }
-    }
-    public static void main(String[] args)
-    {
-        us_alma_forla();
-        int num = -2;
-        switch(num){
-            case 1:
-        }
-
-    }
 }
