@@ -3,6 +3,9 @@ package L5;
 public class Ueb3 {
     public static void main(String[] args)
     {
+        /*
+        * nicht echt lektion statt die vorlesung von der website
+        * */
         int[] gewuerfelteSeiten = new int[6];
         for (int i = 0; i < 10000 ; i++)
         {
