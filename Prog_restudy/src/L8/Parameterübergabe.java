@@ -15,6 +15,7 @@ public class Parameterübergabe {
 
             // Multiplikation der beiden Zahlen
             double result = num1 * num2;
+            System.out.println(result);
 
             // Ausgabe des Ergebnisses
             System.out.println("Das Ergebnis der Multiplikation von " + num1 + " und " + num2 + " ist: " + result);
