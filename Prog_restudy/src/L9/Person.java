@@ -8,7 +8,7 @@ public class Person {
         this.vorname = vorname;
         this.nachname = nachname;
         this.username = username;
-        System.out.println(vorname + nachname + username);
+        System.out.println(vorname +" " + nachname + " "+ username);
     }
     public static void main(String []args)
     {
