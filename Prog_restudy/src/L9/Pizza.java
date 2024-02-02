@@ -39,20 +39,12 @@ package L9;
         }
         public static void Komparator(Pizza piz ){
             int times = piz.durchmesser.length;
-            int erg = 0;
-            for(int i = 0; i < times; i ++)
+            for(int i = 0; i < times; i++)
             {
-                if(i < times -1 && (piz.durchmesser[i]/piz.preis[i]) > (piz.durchmesser[i+1]/piz.preis[i + 1]))
-                {
-                    erg = i;
-                } else if (i < times -1 && (piz.durchmesser[i]/piz.preis[i]) < (piz.durchmesser[i+1]/piz.preis[i + 1])) {
-                    erg = i+1;
-                } else if ( (piz.durchmesser[i]/piz.preis[i]) > (piz.durchmesser[times -1 ]/piz.preis[times - 1 ])) {
-                    erg = i;
-                }else{
-                    erg = times -1;
-                }
+                System.out.println(piz.name);
+                System.out.println(piz.durchmesser[i]);
+                System.out.println(piz.durchmesser[i] / piz.preis[i]);
+                System.out.println("  ");
             }
-            System.out.println(piz.durchmesser[erg] + ", " + piz.preis[erg]);
         }
 }
