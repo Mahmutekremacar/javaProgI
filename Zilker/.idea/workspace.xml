@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f67a1655-3f36-40c6-a94b-988a0305d440" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog I.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/L1_Ueb1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L2/L2_Ueb1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L2/L2_Ueb2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L2/L2_Ueb3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L3/L3_Ueb7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/L4_Ueb1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/L4_Ueb2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/L4_Ueb3_a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/L4_Ueb3_b.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/L4_Ueb4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4/ex1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f67a1655-3f36-40c6-a94b-988a0305d440" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Ekrem Acar/IdeaProjects/Prog I",
     "node.js.detected.package.eslint": "true",
@@ -92,6 +66,7 @@
       <workItem from="1698247271468" duration="7287000" />
       <workItem from="1698319360262" duration="33000" />
       <workItem from="1698319427526" duration="172000" />
+      <workItem from="1706624798280" duration="9000" />
     </task>
     <servers />
   </component>
