@@ -1,0 +1,5 @@
+package pruefung;
+
+class Hotel {
+
+}
