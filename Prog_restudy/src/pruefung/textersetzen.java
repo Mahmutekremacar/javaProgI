@@ -1,5 +1,7 @@
 package pruefung;
 
+import java.util.Arrays;
+
 public class textersetzen {
 
     public static void main (String [] args)
@@ -25,7 +27,7 @@ public class textersetzen {
                 if (inpChar[i] == '.' && count -1 > 0) {
                     inpChar[i] = '_';
                     count--;
-                    inp = inpChar.toString();
+                    inp = Arrays.toString(inpChar);
                 }
 
             }
