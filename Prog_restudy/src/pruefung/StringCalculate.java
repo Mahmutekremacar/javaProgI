@@ -85,5 +85,6 @@ public class StringCalculate {
 
         String input3 = "sieben plus vier";
         System.out.println(input3 + " = " + compute(input3));
+        //
     }
 }
