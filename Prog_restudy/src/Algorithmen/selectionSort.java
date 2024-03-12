@@ -1,7 +1,7 @@
 package Algorithmen;
 import java.util.*;
 public class selectionSort {
-    private static int[] selectSort(int[] numbers)
+    //private static int[] selectSort(int[] numbers)
     {
 
     }
@@ -19,7 +19,7 @@ public class selectionSort {
 
         //selectionSort(numbers);
         System.out.println("\n (Selection Sorted) new list Nums:");
-        System.out.println( Arrays.toString(selectSort(numbers)));
+        //System.out.println( Arrays.toString(selectSort(numbers)));
 
 
     }
