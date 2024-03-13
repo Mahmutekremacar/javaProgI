@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Hello_World/src"/>
+	<classpathentry kind="src" path="javaLearning/src"/>
+	<classpathentry kind="src" path="myFirstGUI/src"/>
+	<classpathentry kind="src" path="Prog_1_Klausuruebungsaufgaben/src"/>
+	<classpathentry kind="src" path="Prog_restudy/src"/>
+	<classpathentry kind="src" path="Prog I/src"/>
+	<classpathentry kind="output" path="Hello_World/out/production/Hello_World"/>
+</classpath>
