@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 
     public class Main {
+
         public static void main(String[] args) {
             // Get the current date and time using LocalDateTime class
             LocalDateTime currentDateTime = LocalDateTime.now();
